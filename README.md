@@ -72,3 +72,28 @@ docker ps
 ```
 
 ![](./images/docker%20ps.jpg)
+
+4. Connect to Jenkins server with Browser (localhost)
+
+- Go to your browser and type `http://localhost:8080.`
+
+![](./images/j1.jpeg)
+
+# SetUP Jenkins server
+
+- Go to your ubuntu machine CLI and ssh into Jenkins container and find jenkins password
+
+
+```bash
+docker exec 7<<containerid>>  cat /var/jenkins_home/secrets/initialAdminPassword
+```
+
+![](./images/docker%20exec.jpg)
+
+- Create admin account make sure you remember!
+
+![](./images/j2.jpg)
+
+# W E L C O M E    TO    J E N K I N S 
+
+![](./images/j3.jpg)
