@@ -52,6 +52,8 @@ networks:
 ```bash
 docker-compose up -d
 ```
+![](./images/docker-compose-up.jpg)
+
 
 ## Command Breakdown
 `docker-compose:` This is the Docker Compose command-line tool used for defining and running multi-container Docker applications.
@@ -61,3 +63,12 @@ docker-compose up -d
 
 
 `-d: `This flag stands for "detached mode," meaning the containers will run in the background.
+
+
+- Check the container 
+
+```bash
+docker ps
+```
+
+![](./images/docker%20ps.jpg)
